@@ -1,0 +1,92 @@
+body {
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.fullContainer {
+    width: 900px;
+}
+
+.recContainer {
+    background: #ebebeb;
+    width: 900px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+}
+
+.centered {
+    position: relative;
+    top: 40px;
+}
+
+.section {
+    position: relative;
+    left: 0;
+    width: 495px;
+    height: 300px;
+    background: #ebebeb;
+    text-align: center;
+    /*float: left;*/
+    
+}
+
+.article {
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
+    background: #777;
+    width: 480px;
+    height: 210px;
+}
+
+.white {
+    color: white;
+    position: relative;
+    top: 15%;
+}
+
+.innerRect {
+    background: white;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+    height: 60px;
+    width: 400px;
+}
+
+.smallCentered {
+    position: relative;
+    top: 20px;
+}
+
+.aside {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    background: #ebebeb;
+    text-align: center;
+    float: left;
+}
+
+.clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+
+  .footer {
+    position: relative;
+    top: 210px;
+  }
+
+  .floatContainer {
+    width: 900px;
+    height: 300px;
+    background: #777;
+  } 
