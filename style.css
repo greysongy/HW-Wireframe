@@ -32,13 +32,13 @@ body {
     height: 300px;
     background: #ebebeb;
     text-align: center;
-    /*float: left;*/
+    float: left;
     
 }
 
 .article {
     position: relative;
-    top: 40px;
+    top: 20px;
     margin: 0 auto;
     background: #777;
     width: 480px;
@@ -48,7 +48,7 @@ body {
 .white {
     color: white;
     position: relative;
-    top: 15%;
+    top: 10%;
 }
 
 .innerRect {
@@ -67,12 +67,14 @@ body {
 
 .aside {
     position: relative;
-    width: 450px;
+    width: 380px;
     height: 300px;
     background: #ebebeb;
     text-align: center;
     float: left;
+    margin-left: 20px;
 }
+
 
 .clearfix::after {
     content: " ";
@@ -89,4 +91,10 @@ body {
     width: 900px;
     height: 300px;
     background: #777;
+    margin-top : 20px;
   } 
+
+  .sectionHeader {
+      top: 20px;
+  }
+
